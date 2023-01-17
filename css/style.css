@@ -14,6 +14,30 @@ header {
     background-color: white;
 }
 
+.blue {
+    background-color: #33A3FF;
+}
+
+.purple {
+    background-color: #7209b7;
+}
+
+.orange {
+    background-color: #fca311;
+}
+
+.lime {
+    background-color: #99d98c;
+}
+
+.green {
+    background-color: #8ac926;
+}
+
+.bottom_padding {
+    padding-bottom: 20px;
+}
+
 .inline {
     display: inline;
 }
@@ -61,23 +85,47 @@ header {
     outline: none;
 }
 
+.task_container {
+    margin-top: 15px;
+}
+
 .checkmark::before {
     content: '\2714';
 }
 
-.icon::before {
+.completed::before {
     content: '\2714';
+}
+
+.completed {
+    border: 1px solid green;
+}
+
+.not_completed::before {
+    content: '\2716';
+}
+
+.not_completed {
+    border: 1px solid red;
 }
 
 .task {
     line-height: 22px;
+    margin-top: 15px;
 }
 
 .icon {
-    border-radius: 50%;
-    border: 1px solid green;
+    border-radius: 50%; 
     display: inline-block;
     text-align: center;
     width: 22px;
     height: 22px;
 }
+
+.tag {
+    font-size: 11px;
+    color: white;
+    padding: 7px;
+    border-radius: 28px;
+}
+
