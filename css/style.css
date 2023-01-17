@@ -4,8 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #1e81b0;
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
-    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+.inline {
+    display: inline;
 }
 
 #logo {
@@ -13,8 +23,61 @@ header {
 }
 
 #logo_title {
-    font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    display: inline;
     vertical-align: middle;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+.btn_container {
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.left_margin {
+    margin-left: 30px;
+}
+
+.btn {
+    padding: 7px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.btn-blue {
+    background-color: #33A3FF;
+    border-color: #33A3FF;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border-color: #E9E9E9;
+    border-width: 2px;
+    outline: none;
+}
+
+.checkmark::before {
+    content: '\2714';
+}
+
+.icon::before {
+    content: '\2714';
+}
+
+.task {
+    line-height: 22px;
+}
+
+.icon {
+    border-radius: 50%;
+    border: 1px solid green;
+    display: inline-block;
+    text-align: center;
+    width: 22px;
+    height: 22px;
 }

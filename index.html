@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Toboolist</title>
 </head>
 <body>
     <header>
         <img id="logo" src="./imgs/Logo.png" alt="logo">
-        <h1 id="logo_title">Toboolist</h1>
+        <h1 id="logo_title" class="inline">Toboolist</h1>
     </header>
-    
-    <main>
 
+    <main>
+        <div class="container">
+            <section class="left_margin btn_container">
+                <button class="btn btn-blue">Add Task</button>
+                <button class="btn btn-transparent">Add Section</button>
+            </section>
+            
+            <hr/>
+
+            <section class="left_margin task_container">
+                <h3 class="checkmark">New Task</h3>
+                <div class="task">
+                    <span class="icon"></span>
+                    <p class="inline">Quarterly Newsletter</p>
+                    <span class="tag">Editorial</span>
+                </div>
+            </section>
+
+        </div>
     </main>
 </body>
 </html>
